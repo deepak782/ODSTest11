@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BoundActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#4D008800">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Bound Service"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Time"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/time_txt"/>
+
+        <Button
+            android:id="@+id/bind"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Bind Service"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/unbind"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="UnBind Service"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"/>
+
+
+</FrameLayout>
